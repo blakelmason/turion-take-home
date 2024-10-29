@@ -42,14 +42,7 @@
 
 ### Steps
 
-1. **Clone the repository**:
-
-   ```sh
-   git clone <repository-url>
-   cd turion-take-home
-   ```
-
-2. **Start the application**:
+1. **Start the application**:
    ```sh
    docker compose up
    ```

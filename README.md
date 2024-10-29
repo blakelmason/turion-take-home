@@ -46,6 +46,8 @@
    ```sh
    docker compose up
    ```
+2. **View the UI** To view the user interface, open your web browser and go to:
+   [http://localhost:4173/](http://localhost:4173/)
 
 ## Databases
 

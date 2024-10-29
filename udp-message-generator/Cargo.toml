@@ -1,0 +1,11 @@
+[package]
+name = "udp-message-generator"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "udp-message-generator"
+path = "src/main.rs"
+
+[dependencies]
+rand = "0.8"

@@ -1,0 +1,17 @@
+[package]
+name = "udp-server"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "udp-server"
+path = "src/main.rs"
+
+[dependencies]
+tokio = { version = "1.41.0", features = ["full"] }
+tokio-postgres = { version = "0.7.12", features = ["with-uuid-1"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+num_cpus = "1.0"
+uuid = { version = "1", features = ["v4", "serde"] }
+redis = { version = "0.27.5", features = ["aio", "tokio-comp"] }
